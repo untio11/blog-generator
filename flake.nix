@@ -20,6 +20,9 @@
           ghcid
           cabal-install
         ];
+        packages = with pkgs; [
+          nil
+        ];
       };
     };
 }
