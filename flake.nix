@@ -8,7 +8,7 @@
   outputs = { self, nixpkgs }: 
     let
       system = "aarch64-darwin";
-      name = "hello-haskell";
+      name = "blog-generator";
       pkgs = nixpkgs.legacyPackages.${system};
       package = pkgs.haskellPackages.callCabal2nix name ./. {};
     in 
