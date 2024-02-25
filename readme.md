@@ -14,6 +14,13 @@ This project is defined with a Nix Flake. This flake takes care of downloading
 all the Haskell dependencies. It also provides a shell environment for development
 that have these dependencies available in the `PATH`.
 
+Before the flake can be used, check your system and change the `system` variable
+in `outputs` to your system. Common values are:
+- `aarch64-darwin` Apple Silicon MacOS
+- `x86_64-linux` For most Linux distro's and Windows WSL
+
+When in doubt, start the Nix repl (`nix repl`) and type: `builtins.currentSystem`.
+
 This shell environment can be accessed in a few different ways:
 - Through VS Code with the direnv extension (see [`.vscode/extensions.json`](.vscode/extensions.json))
 - Through your normal shell with direnv
