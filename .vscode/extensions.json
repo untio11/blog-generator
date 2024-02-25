@@ -1,7 +1,12 @@
 {
     "recommendations": [
+        // Haskell Language Stuff
         "haskell.haskell",
         "justusadam.language-haskell",
-        "hoovercj.haskell-linter"
+        "hoovercj.haskell-linter",
+        
+        // Dev environment
+        "mkhl.direnv",
+        "jnoortheen.nix-ide", // Useful if you ever want to make edits to flake.nix
     ]
 }

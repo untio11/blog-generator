@@ -1,5 +1,5 @@
 {
-  description = "A very basic flake";
+  description = "Following along with [Learn Haskell](https://learn-haskell.blog)";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
